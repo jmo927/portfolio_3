@@ -13,8 +13,12 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, "index.html"));
   });
 
-  app.get("/contact", function(req, res) {
+  app.get("/comments", function(req, res) {
    
+    db.Comment.findAll()
+      .then(function(result) {
+        res.json(result);
+      })
 
   });
 
