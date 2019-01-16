@@ -157,6 +157,7 @@ body {
 .me {
     max-width: 200px;
     text-align: center;
+    border-radius: 25px;
 }
 
 p {
