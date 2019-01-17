@@ -23,44 +23,72 @@
 <body>
     <header>
         <div class="row">
-            
+
         </div><!-- end row -->
 
     </header>
 
     <div class="container">
-        <div class = "row">
+        <div class="row">
             <div class="col-3">
                 <div class="img-wrap">
                     <img src="./assets/images/me.jpg" alt="dis b muh fayce" id="my-face">
-                </div>  
+                </div>
             </div>
 
             <div class="col-7">
-                <div id="text-area"> 
+                <div id="text-area">
+                    This is J-Mo; he writes stuff. Mostly code, but sometimes sonnets. Connect with him, so he can write something for you.
                 </div>
 
                 <div id="btns">
-                    <a href= "/about" class="nav-link">
-                        <button class="nav-btn" id="btn-about">about</button>
-                    </a>           
-                    <a href= "/projects" class="nav-link">
-                        <button class="nav-btn" id="btn-projects">projects</button>
-                    </a>  
-                    <a href= "/contact" class="nav-link">
-                        <button class="nav-btn" id="btn-about">contact</button>
-                    </a>  
+                    <a href="/about" class="nav-link"><button class="nav-btn" id="btn-about">about</button></a>
+                    <a href="/projects" class="nav-link"><button class="nav-btn" id="btn-projects">projects</button></a>
+                    <a href="/contact" class="nav-link"><button class="nav-btn active-btn" id="btn-about">contact</button></a>
                 </div>
             </div>
-            
+
         </div> <!-- end Row 1 -->
 
         <div class="row">
             <div class="col-1 filler-col"></div>
 
             <div class="col-10">
-                <div id="content-area"></div>
+                <div id="content-area">
+                    <hr>
+                    
+                    <div class="row">
+                        <div class="col-8">
+                            <form class="formation" name="form" action="">
+                                <label for="name-input">Name</label>
+                                <br>
+                                <input type="text" id="name-input" placeholder="Jamie Smith">
+                                <br><br>
+                                <label for="email-input">E-Mail</label>
+                                <br>
+                                <input type="email" id="email-input" placeholder="you@where.what">
+                                <br><br>
+                                <label for="text-input">Comment</label>
+                                <br>
+                                <textarea id="text-input" placeholder="You're so cool.  Let's connect!" rows="4"></textarea>
+                                <br>
+                                <input type="submit" id="form-submit" placeholder="Submit">
+                            </form>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="img-wrap">
+                                    <img src="./assets/images/bff.gif" alt="Did we become best friends?" id="bff-img"> 
+                            </div>
+                            
+                        </div>
+
+                    </div> <!-- End row within a row -->
+
+                </div> <!-- end Content Area -->
             </div>
+
+            <div class="col-1 filler-col"></div>
         </div> <!-- end Row 2 -->
 
         <div class="nav" id="social-wrap">
@@ -75,6 +103,7 @@
                 </ul>
                 <h3 class="foot">&#169 Jason Romagni, J-Mo, or whatever I'm calling myself these days. 2018.</h3>
             </div> <!-- End Social Wrap -->
+
     </div> <!-- End Container -->
 
 
@@ -85,7 +114,7 @@
         crossorigin="anonymous"></script>
     <!-- app.js -->
     <script src="./assets/javascript/app.js"></script>
-    <script src="assets/javascript/index.js"></script>
+    <script src="assets/javascript/contact.js"></script>
 </body>
 
 </html>

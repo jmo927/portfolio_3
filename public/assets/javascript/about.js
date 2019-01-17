@@ -1,0 +1,1 @@
+$("#content-area").show("blind", 400);
