@@ -1,7 +1,7 @@
 let projectList = [
   {
     name: "Cup of Sugar",
-    image: "./assets/images/cupofsugar.png",
+    image: "./assets/images/cupofSugar.png",
     url: "https://crispycodersprojecttwo.herokuapp.com/",
     git: "https://github.com/jmo927/CupOfSugar",
     text: "Full-stack project bringing people together through trading goods and services.  Uses Node.js, Express, MySQL, Passport.js, HTML, CSS, and jQuery/JavaScript"
