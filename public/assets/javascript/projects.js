@@ -1,5 +1,11 @@
 let projectList = [
   {
+    name: "News Scraper",
+    image: "./assets/images/news.jpg",
+    url: "https://rocky-badlands-29251.herokuapp.com/",
+    git: "https://github.com/jmo927/web-scraper",
+    text: "Full stack web scraper to get news articles.  Uses Node.js, Express, MySQL, Handlebars, Bootstrap, and jQuery."
+  }, {
     name: "Cup of Sugar",
     image: "./assets/images/cupofSugar.png",
     url: "https://crispycodersprojecttwo.herokuapp.com/",
