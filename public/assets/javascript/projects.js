@@ -1,5 +1,11 @@
 let projectList = [
   {
+    name: "Clicky Memory Game",
+    image: "./assets/images/clicky.jpg",
+    url: "https://jmo927.github.io/clickygame/",
+    git: "https://github.com/jmo927/clickygame",
+    text: "Harry Potter themed memory game built using React.js (create-react-app)."
+  },  {
     name: "News Scraper",
     image: "./assets/images/news.jpg",
     url: "https://rocky-badlands-29251.herokuapp.com/",
