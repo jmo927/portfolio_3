@@ -1,5 +1,11 @@
 let projectList = [
   {
+    name: "Best Lyfe",
+    image: "./assets/images/bestlyfe.png",
+    url: "https://best-lyfe.herokuapp.com/",
+    git: "https://github.com/jmo927/best-lyfe",
+    text: "Semi-social habit-tracking app built in React, Sequelize, Bulma, Node, and Express."
+  },{
     name: "Clicky Memory Game",
     image: "./assets/images/clicky.jpg",
     url: "https://jmo927.github.io/clickygame/",
