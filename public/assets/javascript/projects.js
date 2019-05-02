@@ -35,13 +35,15 @@ let projectList = [
     url: "https://github.com/jmo927/bamazon",
     git: "https://github.com/jmo927/bamazon",
     text: "CLI inventory management tool built in Node.js and MySQL."
-  }, {
-    name: "Movie-Night",
-    image: "./assets/images/movie.jpg",
-    url: "https://jmo927.github.io/Movie-Night/",
-    git: "https://github.com/jmo927/Movie-Night",
-    text: "Suggest and vote on movies! Uses jQuery AJAX calls to get data from Guidebox and OMDb's API's, Firebase for Authorization and Database, and Bootstrap for style."
-  }, {
+  }, 
+  // {
+  //   name: "Movie-Night",
+  //   image: "./assets/images/movie.jpg",
+  //   url: "https://jmo927.github.io/Movie-Night/",
+  //   git: "https://github.com/jmo927/Movie-Night",
+  //   text: "Suggest and vote on movies! Uses jQuery AJAX calls to get data from Guidebox and OMDb's API's, Firebase for Authorization and Database, and Bootstrap for style."
+  // }, 
+  {
     name: "GifTastic",
     image: "./assets/images/gif.gif",
     url: "https://jmo927.github.io/GifTastic/",
