@@ -1,5 +1,11 @@
 let projectList = [
   {
+    name: "MB Moore Yoga",
+    image: "./assets/images/yoga.jpg",
+    url: "https://jmo927.github.io/mb-yoga-react/",
+    git: "https://github.com/jmo927/mb-yoga-react",
+    text: "React-based web page for Marybeth Moore's yoga practice."
+  },{
     name: "Best Lyfe",
     image: "./assets/images/bestlyfe.png",
     url: "https://best-lyfe.herokuapp.com/",
@@ -23,13 +29,15 @@ let projectList = [
     url: "https://crispycodersprojecttwo.herokuapp.com/",
     git: "https://github.com/jmo927/CupOfSugar",
     text: "Full-stack project bringing people together through trading goods and services.  Uses Node.js, Express, MySQL, Passport.js, HTML, CSS, and jQuery/JavaScript"
-  }, {
-    name: "Gryffindor Friend Finder",
-    image: "./assets/images/gryff.png",
-    url: "https://mysterious-lowlands-73139.herokuapp.com/",
-    git: "https://github.com/jmo927/FriendFinder",
-    text: "Full-stack friend finder app.  Uses Express to establish the web server, Node.js for the server, and HTML/Bootstrap for the front end."
-  }, {
+  }, 
+  // {
+  //   name: "Gryffindor Friend Finder",
+  //   image: "./assets/images/gryff.png",
+  //   url: "https://mysterious-lowlands-73139.herokuapp.com/",
+  //   git: "https://github.com/jmo927/FriendFinder",
+  //   text: "Full-stack friend finder app.  Uses Express to establish the web server, Node.js for the server, and HTML/Bootstrap for the front end."
+  // }, 
+  {
     name: "Bamazon",
     image: "./assets/images/bamazon.PNG",
     url: "https://github.com/jmo927/bamazon",
