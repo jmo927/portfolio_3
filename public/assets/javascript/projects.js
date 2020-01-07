@@ -1,13 +1,13 @@
 let projectList = [
   {
     name: "Plant Lyfe",
-    image: "./assets/images/plants.jpg",
+    image: "./assets/images/plants.png",
     url: "http://plantlyfe.herokuapp.com/",
     git: "https://github.com/jmo927/plantlyfe-client",
     text: "A scheduler for watering plants, built with Vue, Express, Mongo (Mongoose), and Node."
   },{
     name: "High Roller",
-    image: "./assets/images/dice.jpg",
+    image: "./assets/images/dice.png",
     url: "https://github.com/jmo927/table-builder",
     git: "https://random-table-builder.herokuapp.com/",
     text: "Random table builder and roller for table top gaming.  Built with React, Node, Express, Mongo (Mongoose), and Passport."
