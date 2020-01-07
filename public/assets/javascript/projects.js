@@ -1,5 +1,17 @@
 let projectList = [
   {
+    name: "Plant Lyfe",
+    image: "./assets/images/plants.jpg",
+    url: "http://plantlyfe.herokuapp.com/",
+    git: "https://github.com/jmo927/plantlyfe-client",
+    text: "A scheduler for watering plants, built with Vue, Express, Mongo (Mongoose), and Node."
+  },{
+    name: "High Roller",
+    image: "./assets/images/dice.jpg",
+    url: "https://github.com/jmo927/table-builder",
+    git: "https://random-table-builder.herokuapp.com/",
+    text: "Random table builder and roller for table top gaming.  Built with React, Node, Express, Mongo (Mongoose), and Passport."
+  },{
     name: "MB Moore Yoga",
     image: "./assets/images/yoga.jpg",
     url: "https://jmo927.github.io/mb-yoga-react/",
@@ -11,32 +23,7 @@ let projectList = [
     url: "https://best-lyfe.herokuapp.com/",
     git: "https://github.com/jmo927/best-lyfe",
     text: "Semi-social habit-tracking app built in React, Sequelize, Bulma, Node, and Express."
-  },{
-    name: "Clicky Memory Game",
-    image: "./assets/images/clicky.jpg",
-    url: "https://jmo927.github.io/clickygame/",
-    git: "https://github.com/jmo927/clickygame",
-    text: "Harry Potter themed memory game built using React.js (create-react-app)."
-  },  {
-    name: "News Scraper",
-    image: "./assets/images/news.jpg",
-    url: "https://rocky-badlands-29251.herokuapp.com/",
-    git: "https://github.com/jmo927/web-scraper",
-    text: "Full stack web scraper to get news articles.  Uses Node.js, Express, MySQL, Handlebars, Bootstrap, and jQuery."
-  }, {
-    name: "Cup of Sugar",
-    image: "./assets/images/cupofSugar.png",
-    url: "https://crispycodersprojecttwo.herokuapp.com/",
-    git: "https://github.com/jmo927/CupOfSugar",
-    text: "Full-stack project bringing people together through trading goods and services.  Uses Node.js, Express, MySQL, Passport.js, HTML, CSS, and jQuery/JavaScript"
-  }, 
-  // {
-  //   name: "Gryffindor Friend Finder",
-  //   image: "./assets/images/gryff.png",
-  //   url: "https://mysterious-lowlands-73139.herokuapp.com/",
-  //   git: "https://github.com/jmo927/FriendFinder",
-  //   text: "Full-stack friend finder app.  Uses Express to establish the web server, Node.js for the server, and HTML/Bootstrap for the front end."
-  // }, 
+  },
   {
     name: "Bamazon",
     image: "./assets/images/bamazon.PNG",
@@ -44,13 +31,6 @@ let projectList = [
     git: "https://github.com/jmo927/bamazon",
     text: "CLI inventory management tool built in Node.js and MySQL."
   }, 
-  // {
-  //   name: "Movie-Night",
-  //   image: "./assets/images/movie.jpg",
-  //   url: "https://jmo927.github.io/Movie-Night/",
-  //   git: "https://github.com/jmo927/Movie-Night",
-  //   text: "Suggest and vote on movies! Uses jQuery AJAX calls to get data from Guidebox and OMDb's API's, Firebase for Authorization and Database, and Bootstrap for style."
-  // }, 
   {
     name: "GifTastic",
     image: "./assets/images/gif.gif",
